@@ -1,8 +1,8 @@
 const CACHE_NAME = 'ecommerce-pwa-cache-v1';
 const urlsToCache = [
     '/',
-    '/index.html',
-    'images/vege.png',
+    './index.html',
+    './images/vege.png',
 ];
 self.addEventListener('install', (event) => {
     event.waitUntil(
